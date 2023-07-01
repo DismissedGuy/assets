@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           wget -q -Odrawio.deb https://github.com/jgraph/drawio-desktop/releases/download/v${DRAWIO_VER}/drawio-amd64-${DRAWIO_VER}.deb
-          sudo apt-get update && apt-get upgrade -y && apt install ./drawio.deb
+          sudo apt-get update && sudo apt-get upgrade -y && apt install ./drawio.deb -y
           rm drawio.deb
       
       - name: Compile converter
