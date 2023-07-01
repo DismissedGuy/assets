@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          wget -Odrawio.deb https://github.com/jgraph/drawio-desktop/releases/download/v${DRAWIO_VER}/drawio-amd64-${DRAWIO_VER}.deb
-          apt-get update && apt-get upgrade -y && apt install ./drawio.deb
+          wget -q -Odrawio.deb https://github.com/jgraph/drawio-desktop/releases/download/v${DRAWIO_VER}/drawio-amd64-${DRAWIO_VER}.deb
+          sudo apt-get update && apt-get upgrade -y && apt install ./drawio.deb
           rm drawio.deb
       
       - name: Compile converter
