@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 1 2 1 0.5 rgba(0,0,0,0.43)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="1" dy="2"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.43)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="14.859" cy="11.684" r="10" id="gradient-1" gradientTransform="matrix(2.250517, -5.281689, 6.880567, 2.931776, -133.191632, 64.681146)">
+      <stop offset="0" style="stop-color: rgba(255, 208, 0, 1)"/>
+      <stop offset="1" style="stop-color: rgb(197, 162, 5);"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(25, 0, 0, 24.999376, -50, -49.998753)" style="">
+    <g/>
+  </g>
+  <g transform="matrix(10.245901, 0, 0, 10.245691, 598.360657, 173.039474)" style="filter: url(#drop-shadow-filter-0);">
+    <path d="M -38.88 -16.889 C -33.49 -16.889 -29.12 -12.519 -29.12 -7.129 L -29.12 -2.249 L -24.85 -2.249 C -21.817 -2.249 -19.36 0.208 -19.36 3.241 L -19.36 5.071 C -20.136 5.071 -20.914 5.339 -21.546 5.873 L -21.807 6.117 C -22.207 6.535 -22.61 6.905 -23.018 7.232 L -23.02 3.241 C -23.02 2.23 -23.84 1.411 -24.85 1.411 L -52.91 1.411 C -53.92 1.411 -54.74 2.23 -54.74 3.241 L -54.74 26.42 C -54.74 27.43 -53.92 28.25 -52.91 28.25 L -28.783 28.252 C -27.788 29.658 -26.531 30.883 -25.026 31.912 L -52.91 31.91 C -55.943 31.91 -58.4 29.453 -58.4 26.42 L -58.4 3.241 C -58.4 0.208 -55.943 -2.249 -52.91 -2.249 L -48.64 -2.249 L -48.64 -7.129 C -48.64 -12.519 -44.27 -16.889 -38.88 -16.889 Z M -18.667 7.808 C -16.247 10.336 -13.565 11.578 -10.576 11.578 C -10.105 11.578 -9.71 11.927 -9.62 12.388 L -9.6 12.593 L -9.6 18.695 C -9.6 25.239 -12.804 29.69 -19.05 31.859 C -19.253 31.927 -19.467 31.927 -19.667 31.859 C -25.709 29.76 -28.903 25.534 -29.11 19.344 L -29.12 18.695 L -29.12 12.593 C -29.12 12.032 -28.683 11.578 -28.144 11.578 C -25.16 11.578 -22.476 10.336 -20.048 7.808 C -19.667 7.41 -19.048 7.41 -18.667 7.808 Z M -38.88 -13.229 C -42.25 -13.229 -44.98 -10.499 -44.98 -7.129 L -44.98 -2.249 L -32.78 -2.249 L -32.78 -7.129 C -32.78 -10.499 -35.51 -13.229 -38.88 -13.229 Z" style="stroke: rgb(186, 218, 85); paint-order: stroke; stroke-width: 0px; fill: url(#gradient-1);"/>
+    <path d="M -40.841 13.151 L -47.912 20.222 L -49.326 18.808 L -43.669 13.151 L -49.326 7.494 L -47.912 6.081 L -40.841 13.151 Z M -40.841 20.151 L -30.841 20.151 L -30.841 22.151 L -40.841 22.151 L -40.841 20.151 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 0.3904px; fill: rgb(30, 30, 30); stroke: rgb(30, 30, 30);"/>
+  </g>
+</svg>
