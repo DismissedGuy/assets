@@ -1,0 +1,4 @@
+# Only ever commit changes to source code for CI
+.ci/*
+!.ci/*.nim
+conv
